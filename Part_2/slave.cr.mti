@@ -1,0 +1,463 @@
+D:/Digital_verification_diploma/SPI_UVM/slave_scoreboard.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_scoreboard.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_scoreboard_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_scoreboard.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_agent.sv {2 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_agent.sv
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/top.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: (vlog-6) -- Waiting for lock by "OVER CLOCK@DESKTOP-1QP3C4F, pid = 1200
+". Lockfile is "D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/work/_lock".
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_test_pkg
+-- Importing package slave_env_pkg
+-- Importing package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package slave_agent_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+-- Importing package slave_scoreboard_pkg
+-- Importing package slave_rst_seq_pkg
+-- Importing package slave_main_sequence_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+-- Compiling package slave_agent_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_agent.sv(9): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_main_sequence.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_main_sequence.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_main_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_main_sequence.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shared_pkg
+-- Importing package slave_seq_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_test.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_test.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_test_pkg
+-- Importing package slave_env_pkg
+-- Importing package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+-- Importing package slave_agent_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+-- Importing package slave_scoreboard_pkg
+-- Importing package slave_rst_seq_pkg
+-- Importing package slave_main_sequence_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_test.sv(15): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_monitor.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_monitor.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_monitor.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_config_obj.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_config_obj.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_obj_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_config_obj.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/shared_package.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/shared_package.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/top.sv {2 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_agent.sv
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/top.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: (vlog-6) -- Waiting for lock by "OVER CLOCK@DESKTOP-1QP3C4F, pid = 1200
+". Lockfile is "D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/work/_lock".
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_test_pkg
+-- Importing package slave_env_pkg
+-- Importing package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package slave_agent_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+-- Importing package slave_scoreboard_pkg
+-- Importing package slave_rst_seq_pkg
+-- Importing package slave_main_sequence_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+-- Compiling package slave_agent_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_agent.sv(9): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/SPI_slave_golden_model.v {1 {vlog -work work -vopt -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/SPI_slave_golden_model.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_slave_GOLD
+
+Top level modules:
+	SPI_slave_GOLD
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_rst_seq.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_rst_seq.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_rst_seq_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_rst_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_env.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_env.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_env_pkg
+-- Importing package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+-- Importing package slave_agent_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+-- Importing package slave_scoreboard_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_env.sv(14): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_agent.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_agent.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_agent_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_agent.sv(9): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_test.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_test.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_test_pkg
+-- Importing package slave_env_pkg
+-- Importing package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+-- Importing package slave_agent_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+-- Importing package slave_scoreboard_pkg
+-- Importing package slave_rst_seq_pkg
+-- Importing package slave_main_sequence_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_test.sv(15): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/shared_package.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/shared_package.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_config_obj.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_config_obj.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_obj_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_config_obj.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_monitor.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_monitor.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_monitor.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/top.sv {2 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/top.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/top.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: D:/Digital_verification_diploma/SPI_UVM/top.sv(8): (vlog-13233) Design unit "top_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_test_pkg
+-- Importing package slave_env_pkg
+-- Importing package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package slave_agent_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+-- Importing package slave_scoreboard_pkg
+-- Importing package slave_rst_seq_pkg
+-- Importing package slave_main_sequence_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/SPI_slave_golden_model.v {1 {vlog -work work -vopt -stats=none D:/Digital_verification_diploma/SPI_UVM/SPI_slave_golden_model.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_slave_GOLD
+
+Top level modules:
+	SPI_slave_GOLD
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_env.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_env.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_env_pkg
+-- Importing package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+-- Importing package slave_agent_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+-- Importing package slave_scoreboard_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_env.sv(14): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_rst_seq.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_rst_seq.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_rst_seq_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_rst_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_driver.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_driver.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_driver.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_seq-item.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_seq-item.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_seq-item.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_driver.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_driver.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_driver.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_collector.sv {2 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_collector.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_collector.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_collector.sv(34): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_if.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_if.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SLAVE_IF
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_seq-item.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_seq-item.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_seq-item.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/SPI_slave.v {1 {vlog -work work -vopt -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/SPI_slave.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SLAVE
+
+Top level modules:
+	SLAVE
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_if.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_if.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SLAVE_IF
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_collector.sv {2 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_collector.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_collector.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: D:/Digital_verification_diploma/SPI_UVM/slave_collector.sv(40): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_sva.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/top.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/top.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_test_pkg
+-- Importing package slave_env_pkg
+-- Importing package slave_collector_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package slave_agent_pkg
+-- Importing package slave_sequencer_pkg
+-- Importing package slave_driver_pkg
+-- Importing package slave_obj_config_pkg
+-- Importing package slave_monitor_pkg
+-- Importing package slave_scoreboard_pkg
+-- Importing package slave_rst_seq_pkg
+-- Importing package slave_main_sequence_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_sequencer.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_sequencer.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/SPI_slave.v {1 {vlog -work work -vopt -stats=none D:/Digital_verification_diploma/SPI_UVM/SPI_slave.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SLAVE
+
+Top level modules:
+	SLAVE
+
+} {} {}} D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_scoreboard.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_scoreboard.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_scoreboard_pkg
+-- Importing package slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/project_2_uvm/uvm/SPI_UVM_final/slave_scoreboard.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_sva.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_sva.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module slave_sva
+
+Top level modules:
+	slave_sva
+
+} {} {}} D:/Digital_verification_diploma/SPI_UVM/slave_sequencer.sv {1 {vlog -work work -vopt -sv -stats=none D:/Digital_verification_diploma/SPI_UVM/slave_sequencer.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/Digital_verification_diploma/SPI_UVM/slave_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

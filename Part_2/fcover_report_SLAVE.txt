@@ -1,0 +1,186 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT/SLAVE_check
+=== Design Unit: work.slave_sva
+=================================================================================
+
+Directive Coverage:
+    Directives                       5         5         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/SLAVE_check/cover__return_to_IDLE_on_ss_high 
+                                         slave_sva Verilog  SVA  slave_sva.sv(89)  76 Covered   
+/top/DUT/SLAVE_check/cover__CHK_CMD_valid_transitions 
+                                         slave_sva Verilog  SVA  slave_sva.sv(88) 103 Covered   
+/top/DUT/SLAVE_check/cover__IDLE_to_CHK_CMD 
+                                         slave_sva Verilog  SVA  slave_sva.sv(87) 110 Covered   
+/top/DUT/SLAVE_check/cover__rx_valid_asserted 
+                                         slave_sva Verilog  SVA  slave_sva.sv(86)1255 Covered   
+/top/DUT/SLAVE_check/cover__reset_chk    slave_sva Verilog  SVA  slave_sva.sv(85)  47 Covered   
+
+=================================================================================
+=== Instance: /slave_collector_pkg
+=== Design Unit: work.slave_collector_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          4        na        na        na
+            Covergroup Bins         18        18         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /slave_collector_pkg/slave_collector/cvr        100.00%        100          -    Covered              
+    covered/total bins:                                    18         18          -                      
+    missing/total bins:                                     0         18          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_trans                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ss_n_trans                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Mosi_trans                             100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/slave_collector_pkg::slave_collector::cvr  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    18         18          -                      
+    missing/total bins:                                     0         18          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_trans                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                      1198          1          -    Covered              
+        bin auto[1]                                       152          1          -    Covered              
+        bin auto[2]                                       212          1          -    Covered              
+        bin auto[3]                                       439          1          -    Covered              
+    Coverpoint ss_n_trans                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin normal                                         71          1          -    Covered              
+        bin read                                           41          1          -    Covered              
+    Coverpoint Mosi_trans                             100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_address                                 753          1          -    Covered              
+        bin write_data                                    129          1          -    Covered              
+        bin read_address                                  115          1          -    Covered              
+        bin read_data                                     617          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ss_n_mosi0                                 23          1          -    Covered              
+            bin ss_n_mosi1                                 21          1          -    Covered              
+            bin ss_n_mosi2                                 10          1          -    Covered              
+            bin ss_n_mosi3                                 17          1          -    Covered              
+            bin ss_n_mosi4                                 10          1          -    Covered              
+            bin ss_n_mosi5                                 12          1          -    Covered              
+            bin ss_n_mosi6                                 11          1          -    Covered              
+            bin ss_n_mosi7                                  8          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /slave_collector_pkg/slave_collector/cvr        100.00%        100          -    Covered              
+    covered/total bins:                                    18         18          -                      
+    missing/total bins:                                     0         18          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_trans                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ss_n_trans                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Mosi_trans                             100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/slave_collector_pkg::slave_collector::cvr  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    18         18          -                      
+    missing/total bins:                                     0         18          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_trans                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                      1198          1          -    Covered              
+        bin auto[1]                                       152          1          -    Covered              
+        bin auto[2]                                       212          1          -    Covered              
+        bin auto[3]                                       439          1          -    Covered              
+    Coverpoint ss_n_trans                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin normal                                         71          1          -    Covered              
+        bin read                                           41          1          -    Covered              
+    Coverpoint Mosi_trans                             100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_address                                 753          1          -    Covered              
+        bin write_data                                    129          1          -    Covered              
+        bin read_address                                  115          1          -    Covered              
+        bin read_data                                     617          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ss_n_mosi0                                 23          1          -    Covered              
+            bin ss_n_mosi1                                 21          1          -    Covered              
+            bin ss_n_mosi2                                 10          1          -    Covered              
+            bin ss_n_mosi3                                 17          1          -    Covered              
+            bin ss_n_mosi4                                 10          1          -    Covered              
+            bin ss_n_mosi5                                 12          1          -    Covered              
+            bin ss_n_mosi6                                 11          1          -    Covered              
+            bin ss_n_mosi7                                  8          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/SLAVE_check/cover__return_to_IDLE_on_ss_high 
+                                         slave_sva Verilog  SVA  slave_sva.sv(89)  76 Covered   
+/top/DUT/SLAVE_check/cover__CHK_CMD_valid_transitions 
+                                         slave_sva Verilog  SVA  slave_sva.sv(88) 103 Covered   
+/top/DUT/SLAVE_check/cover__IDLE_to_CHK_CMD 
+                                         slave_sva Verilog  SVA  slave_sva.sv(87) 110 Covered   
+/top/DUT/SLAVE_check/cover__rx_valid_asserted 
+                                         slave_sva Verilog  SVA  slave_sva.sv(86)1255 Covered   
+/top/DUT/SLAVE_check/cover__reset_chk    slave_sva Verilog  SVA  slave_sva.sv(85)  47 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 5
+
+Total Coverage By Instance (filtered view): 100.00%
+
